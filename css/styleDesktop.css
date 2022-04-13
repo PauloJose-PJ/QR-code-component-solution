@@ -1,0 +1,74 @@
+html,
+body {
+  display: block;
+  padding: 0px;
+  margin: auto;
+  width: 1440px;
+  height: 800px;
+  box-sizing: border-box;
+  background-color: hsl(212, 45%, 89%);
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  background-color: hsl(212, 45%, 89%);
+}
+
+.app {
+  width: 320px;
+  height: 497px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 19px;
+  margin: 151.5px 560px 151.5px 560px;
+  position: absolute;
+}
+
+/* Não esquecer do absolute para ficar em cima da camada seguinte */
+img {
+  width: 288px;
+  height: 288px;
+  border-radius: 10px;
+  margin: 16px 16px 193px 16px;
+  position: absolute;
+}
+
+@font-face {
+  font-family: "OutFit";
+  src: url("OutFit-Bold.ttf"), ("OutFit-Regular.ttf") format ("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+section {
+  width: 274px;
+  height: 413px;
+  margin: 326px 23px 40px 23px;
+  text-align: center;
+}
+
+/* O apredizado de hoje é chmar especificamente um seletor com o Section depois p */
+section p {
+  font-size: 15px;
+  font-weight: normal;
+  width: 400px 36.5px 125px 36.5px;
+  letter-spacing: 1px;
+  color: hsl(220, 15%, 55%);
+}
+
+p h1 {
+  font-family: OutFit;
+  font-weight: normal;
+}
+
+h1 {
+  color: hsl(218, 44%, 22%);
+}
+
+footer p {
+  font-size: 13px;
+  width: 19rem;
+  text-align: center;
+}
