@@ -18,4 +18,10 @@ grandes.
 3. Não aprendi como fazer responsivo com <b>"troca de media suavemente"</b> se
 alguem souber me ensina please!
 
+<h2>Solução talvez não seja a perfeita mas foi a que chegou mais perto</h2>
+Atualização com ajuda de algumas pessoas do Telegram reduzi bastante o codigo, coloquei alguns arquivos que era para colocar do site official que acabei esquecendo.
+Acabei encaixando a dica certa para usar nesse site simples, em app no css coloquei :
+- justify-content: center que alinha elementos ao longo do eixo principal tanto linha como coluna
+- align-items - alinha um item filho dentro de um conteineir
 
+Por fim terminei, aqui relato meus erros e acertos e até logo TCHAU!!
