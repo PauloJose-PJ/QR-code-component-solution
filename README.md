@@ -23,5 +23,6 @@ Atualização com ajuda de algumas pessoas do Telegram reduzi bastante o codigo,
 Acabei encaixando a dica certa para usar nesse site simples, em app no css coloquei :
 - justify-content: center que alinha elementos ao longo do eixo principal tanto linha como coluna
 - align-items - alinha um item filho dentro de um conteineir
+"O medo da pergunta é impasse ao fracasso que leva ao atrasso, idéias são soluções medos e fracassos são passados!!"
 
 Por fim terminei, aqui relato meus erros e acertos e até logo TCHAU!!
