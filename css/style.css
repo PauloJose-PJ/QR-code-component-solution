@@ -1,20 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
-  display: block;
-  padding: 0px;
-  margin: auto;
-  width: 1440px;
-  height: 800px;
-  box-sizing: border-box;
-  background-color: hsl(212, 45%, 89%);
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-color: hsl(212, 45%, 90%);
+  /*Usando o display-Flex para opções abaixo*/
+  display: flex;
+  /*Justificado ao centro bem mais facil do que estava no branch anterior*/
+  justify-content: center;
+  /* E alinhando consome bem menos codigos usando magir:0 auto*/
+  align-items: center;
 }
 
 a {
   text-decoration: none;
-}
-
-.container {
-  background-color: hsl(212, 45%, 89%);
 }
 
 .app {
@@ -22,8 +28,10 @@ a {
   height: 497px;
   background-color: hsl(0, 0%, 100%);
   border-radius: 19px;
-  margin: 151.5px 560px;
+  /*gambiarra abaixo sempre tem*/
+  margin-top: 20%;
   position: absolute;
+  box-shadow: 10px 5px 5px rgb(214, 214, 214);
 }
 
 /* Não esquecer do absolute para ficar em cima da camada seguinte */
@@ -69,6 +77,11 @@ h1 {
 
 footer p {
   font-size: 13px;
-  width: 19rem;
-  text-align: center;
+  width: 290px;
+  align-items: center;
+  margin-left: 20px;
+}
+
+footer {
+  width: 320px;
 }
